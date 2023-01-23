@@ -14,5 +14,8 @@ class Program
         var vector_h = g.GenerateVector_H();
         System.IO.File.WriteAllText("vector.h", vector_h);
 
+        var matrix_h = g.GenerateMatrix_H();
+        System.IO.File.WriteAllText("matrix.h", matrix_h);
+
     }
 }
